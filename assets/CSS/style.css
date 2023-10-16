@@ -7,7 +7,7 @@
     src: url(../fonts/Lato-Italic.woff);
     src: url(../fonts/Lato-Italic.ttf) format(truetype);
     src: url(../fonts/Raleway-Regular.woff);
-    src: url(../fonts/Raleway-Regular.ttf) format(truetypa);
+    src: url(../fonts/Raleway-Regular.ttf) format(truetype);
     src: url(../fonts/Raleway-Bold.woff);
     src: url(../fonts/Raleway-Bold.ttf) format(truetype);
     src: url(../fonts/Raleway-Italic.woff);
@@ -16,19 +16,82 @@
 main{
     background-color: #782221;
 }
-a{
-color: white;
-font-weight: bold;
-text-decoration: none;
-}
-a:link{
+#fontwhite{
     color: white;
-    font-weight: normal;
-    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    text-decoration: none;
 }
-a:visited{
+#fontwhite:link{
     color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
     font-weight: normal;
+    text-decoration-line: none;
+}
+#fontwhite:hover{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+#fontwhite1{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;   
+}
+#fontwhite1:link{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+#fontwhite1:hover{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+#fontwhite2{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;   
+}
+#fontwhite2:link{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+#fontwhite2:hover{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+#fontwhite3{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;   
+}
+#fontwhite3:link{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+#fontwhite3:hover{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
 }
 h1{
     font-family: "Lato-Bold", sans-serif;
@@ -38,22 +101,235 @@ h2{
     font-family: "Lato-Bold", sans-serif;
     color: black;
     background-color: #dbc2a4;
+    font-size: 1.5rem;
 }
-.white{
+#white{
     color: white;
     background-color: #782221;
     font-size: 2rem;
 }
+#trait{
+    background-color: #dbc2a4;
+    border-left-color: #782221;
+    border-left-style: solid;
+    border-left-width: 0.5rem;
+}
 h3{
     font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+#fontblack{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+#tbor:link{
+    color: black;
+    font-weight: bold;
+    font-family: "Raleway-Regular", sans-serif;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+#tbor:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+    }
+#fontblack1{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor1:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack2{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor2:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack3{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor3:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack4{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor4:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack5{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor5:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack6{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor6:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack7{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor7:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack8{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor8:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack9{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor9:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack10{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor10:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack11{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor11:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack12{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor12:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack13{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor13:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+}
+#fontblack14{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+}
+#tbor14:hover{
+    border-right: solid 0.5rem #782221;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
 }
 h4{
     font-family: "Lato-Italic", sans-serif;
     font-style: italic;
+    font-size: 1rem;
 }
 p{
     font-family: "Raleway-Regular", sans-serif;
     font-weight: normal;
+    font-size: 0.8rem;
 }
 ul li{
     font-family: "Raleway-Regular", sans-serif;
@@ -76,15 +352,15 @@ header{
     background-color: #782221;
     padding-top: 20px;
 }
-.img1{
+#img1{
     width: 100px;
     height: 100px;
     padding: 5px;
     object-fit: cover;
     border-radius: 50%;
-    cursor: zoom-out;
+    cursor: zoom-in;
 }
-.img1:hover{
+#img1:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -115,8 +391,10 @@ section{
     height: auto;
     color: white;
     margin-right: 40px;
+    font-size: 0.8rem;
+    text-align: justify;
 }
-.indent{
+#indent{
     text-indent: 20%;
 }
 #bloc2{
@@ -124,12 +402,13 @@ section{
     width: 810px;
     height: auto;
     padding-left: 30px;
+    padding-right: 20px;
 }
-.img2{
-    width: 30px;
-    height: 30px;
+#img2{
+    width: 40px;
+    height: 40px;
     object-fit: cover;
-    padding-bottom: 20px;
+    padding-block: 20px;
 }
 footer{
     background-color: #782221;
