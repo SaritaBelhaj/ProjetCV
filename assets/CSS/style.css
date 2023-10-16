@@ -13,6 +13,9 @@
     src: url(../fonts/Raleway-Italic.woff);
     src: url(../fonts/Raleway-Italic.ttf) format(truetype)
 }
+main{
+    background-color: #782221;
+}
 a{
 color: white;
 font-weight: bold;
@@ -29,9 +32,17 @@ a:visited{
 }
 h1{
     font-family: "Lato-Bold", sans-serif;
+    font-size: 3rem;
 }
 h2{
     font-family: "Lato-Bold", sans-serif;
+    color: black;
+    background-color: #dbc2a4;
+}
+.white{
+    color: white;
+    background-color: #782221;
+    font-size: 2rem;
 }
 h3{
     font-family: "Lato-Bold", sans-serif;
@@ -63,18 +74,17 @@ header{
     align-items: center;
     color: white;
     background-color: #782221;
+    padding-top: 20px;
 }
-main{
-    background-color: #782221;
-}
-img{
+.img1{
     width: 100px;
     height: 100px;
-    padding: 10px;
+    padding: 5px;
+    object-fit: cover;
     border-radius: 50%;
-    cursor: zoom-in;
+    cursor: zoom-out;
 }
-img:hover{
+.img1:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -104,16 +114,30 @@ section{
     width: 350px;
     height: auto;
     color: white;
+    margin-right: 40px;
+}
+.indent{
+    text-indent: 20%;
 }
 #bloc2{
     background-color: white;
     width: 810px;
+    height: auto;
     padding-left: 30px;
 }
-h3{
-cursor: auto;
+.img2{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    padding-bottom: 20px;
 }
-h3:hover{
-    
+footer{
+    background-color: #782221;
+    margin-top: 0%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
-
